@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+
+            <a href="#" class="navbar-brand">
+                <img style="height: 30px; width:50px" class="ms-5"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg" alt="">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse justify-content-around" id="nav1">
+
+                <ul class="navbar-nav m-auto">
+
+                    <li class="navbar-items dropdown px-lg-2">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">New</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">1</a></li>
+                            <li><a href="#" class="dropdown-item">2</a></li>
+                            <li><a href="#" class="dropdown-item">3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="navbar-items dropdown px-lg-2">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Men</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">1</a></li>
+                            <li><a href="#" class="dropdown-item">2</a></li>
+                            <li><a href="#" class="dropdown-item">3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="navbar-items dropdown px-lg-2">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Women</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">1</a></li>
+                            <li><a href="#" class="dropdown-item">2</a></li>
+                            <li><a href="#" class="dropdown-item">3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="navbar-items dropdown px-lg-2">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kid</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">1</a></li>
+                            <li><a href="#" class="dropdown-item">2</a></li>
+                            <li><a href="#" class="dropdown-item">3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="navbar-items dropdown px-lg-2">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sport</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">1</a></li>
+                            <li><a href="#" class="dropdown-item">2</a></li>
+                            <li><a href="#" class="dropdown-item">3</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <form class="d-flex">
+                    <button type="button" class="btn btn-outline-secondary" style="border-radius: 100%; width:40px;">
+                        <i class="fa-solid fa-magnifying-glass" style="margin-left:-2px"></i>
+                    </button>
+                    <input type="text" class="form-control bg-secondary-subtle" placeholder="search" style="border-radius: 30px; width:180px">
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+    
+    <div class="container-fluid" style="border-bottom: 5px solid grey; border-top: 5px solid grey">
+        <div class="carousel slide w-100 m-lg-auto d-block" id="click">
+
+            <div class="carousel-indicators">
+
+                <button type="button" data-bs-target="#click" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#click" data-bs-slide-to="1" ></button>
+                <button type="button" data-bs-target="#click" data-bs-slide-to="2" ></button>
+                <button type="button" data-bs-target="#click" data-bs-slide-to="3" ></button>
+                <button type="button" data-bs-target="#click" data-bs-slide-to="4" ></button>
+
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100 d-lg-block"
+                    src="https://static.nike.com/a/images/w_2880,h_1410,c_fill,f_auto/bc25a64e-3a16-4b5c-8a68-5f8dccbfd8b6/image.jpg" alt="">
+                </div>
+
+                <div class="carousel-item ">
+                    <img class="w-100 d-lg-block"
+                    src="https://static.nike.com/a/images/w_2880,h_1410,c_fill,f_auto/2b58f4c0-d556-45d5-a880-b54233b7071e/image.jpg" alt="">
+                </div>
+
+                <div class="carousel-item ">
+                    <img class="w-100 d-lg-block"
+                    src="https://static.nike.com/a/images/w_2880,h_1410,c_fill,f_auto/14086dae-e645-4456-861b-f4369e36572d/image.png" alt="">
+                </div>
+
+                <div class="carousel-item ">
+                    <img class="w-100 d-lg-block"
+                    src="https://static.nike.com/a/images/w_2880,h_1410,c_fill,f_auto/1993479e-b0a1-439a-ba63-50d9b4e4469c/image.jpg" alt="">
+                </div>
+
+                <div class="carousel-item ">
+                    <img class="w-100 d-lg-block"
+                    src="https://static.nike.com/a/images/w_2880,h_1410,c_fill,f_auto/c7527e63-a55c-47b7-a07c-b979bf41af13/image.jpg" alt="">
+                </div>
+
+            </div>
+
+            <button type="button" class="carousel-control-prev" data-bs-target="#click" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+
+            <button type="button" class="carousel-control-next" data-bs-target="#click" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+
+        </div>
+    </div>
+
+    
+    <div class="text">
+        <h1>Our Products</h1>
+    </div>
+
+
+    <div class="row">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+            <div class="card" style="width: 300px;">
+                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5a866b6f-6088-4340-903c-376756799cc5/PHANTOM+6+LOW+ELITE+FG+EH.png" alt="">
+    
+                <div class="card-body">
+                    <div class="card-title">Nike Phantom 6 Low Elite</div>
+                    <div class="card-text">Firm-Ground Soccer Cleats</div>
+                    <div class="card-text">$270</div>
+                    <a href="#" class="btn btn-primary">Visit</a>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+            <div class="card" style="width: 300px;">
+                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/2f3c8df1-a260-436d-a1d6-c4cce2472c0f/ZM+SUPERFLY+10+ELITE+FG.png" alt="">
+    
+                <div class="card-body">
+                    <div class="card-title">Nike Mercurial Superfly 10 Elite</div>
+                    <div class="card-text">Firm-Ground High-Top Soccer Cleats</div>
+                    <div class="card-text">$295</div>
+                    <a href="#" class="btn btn-primary">Visit</a>
+                </div>
+            </div>
+        </div>
+    
+    
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+                <div class="card" style="width: 300px;">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/09499dd6-32b8-49dd-8b43-5f305f2a3480/W+NK+DF+STRIKE+SS+TOP+K.png" alt="">
+    
+                    <div class="card-body">
+                        <div class="card-title">Nike Strike</div>
+                        <div class="card-text">Women's Dri-FIT Short-Sleeve Soccer</div>
+                        <div class="card-text">$45</div>
+                        <a href="#" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+                <div class="card" style="width: 300px;">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d08afd69-6d2a-4aec-a236-5eaed48964c0/WMNS+AIR+JORDAN+1+RETRO+HI+OG.png" alt="">
+    
+                    <div class="card-body">
+                        <div class="card-title">Air Jordan 1 Retro High OG "Baroque Brown and Sail"</div>
+                        <div class="card-text">Women's Shoes</div>
+                        <div class="card-text">$185</div>
+                        <a href="#" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+                <div class="card" style="width: 300px;">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f89b1325-03ce-4762-8646-10c9bc72f1e6/K+NK+TEE+CALLING+FOOTBALL+QS.png" alt="">
+    
+                    <div class="card-body">
+                        <div class="card-title">Just Do It</div>
+                        <div class="card-text">Big Kids' T-Shirt</div>
+                        <div class="card-text">$25</div>
+                        <a href="#" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+                <div class="card" style="width: 300px;">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/306688ce-fe10-4843-8a7a-dba85318814c/M+NK+AIR+WVN+CARGO+PANT+AOP.png" alt="">
+    
+                    <div class="card-body">
+                        <div class="card-title">Nike Air</div>
+                        <div class="card-text">Men's Woven Cargo Pants</div>
+                        <div class="card-text">$100</div>
+                        <a href="#" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+                <div class="card" style="width: 300px;">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/29717ffb-b97e-46fe-bcde-e672f443dacc/W+NSW+CLLCTN+PLEATD+TRK+PNT.png" alt="">
+    
+                    <div class="card-body">
+                        <div class="card-title">Nike Sportswear Collection</div>
+                        <div class="card-text">Women's Mid-Rise Pleated Track Pants</div>
+                        <div class="card-text">$160</div>
+                        <a href="#" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+                <div class="card" style="width: 300px;">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f0175cf7-d537-4d0f-ac6f-945373fa71c1/W+NSW+STREET+5%22+CARGO+SHORT.png" alt="">
+    
+                    <div class="card-body">
+                        <div class="card-title">Nike Sportswear</div>
+                        <div class="card-text">Women's Mid-Rise Loose 5" Cargo Shorts</div>
+                        <div class="card-text">$65</div>
+                        <a href="#" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+            </div>
+    
+    
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+                <div class="card" style="width: 300px;">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/213d066d-d410-48f5-af74-21d464c40450/M+NK+CLUB+WVN+TAPER+PANT.png" alt="">
+    
+                    <div class="card-body">
+                        <div class="card-title">Nike Club</div>
+                        <div class="card-text">Men's Woven Tapered Pants</div>
+                        <div class="card-text">$70</div>
+                        <a href="#" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+                <div class="card" style="width: 300px;">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5f1887fb-d820-419d-a0cf-56c718191557/M+NK+DFADV+AROSWFT+SS+TOP.png" alt="">
+    
+                    <div class="card-body">
+                        <div class="card-title">Nike AeroSwift</div>
+                        <div class="card-text">Men's Dri-FIT ADV Short-Sleeve Running Top</div>
+                        <div class="card-text">$90</div>
+                        <a href="#" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+                <div class="card" style="width: 300px;">
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4f297b0d-3196-496f-b87d-52bbea7cdda3/U+NSW+TEE+OC+FB+GFX+FW+CULTURE.png" alt="">
+    
+                    <div class="card-body">
+                        <div class="card-title">Nike Sportswear</div>
+                        <div class="card-text">T-Shirt</div>
+                        <div class="card-text">$45</div>
+                        <a href="#" class="btn btn-primary">Visit</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center mt-5">
+                <div class="card" style="width: 300px;">
+                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/50f467e2-7ef5-4d50-a00f-41c383f50b36/M+NK+TF+SI+BRSH+PO+HD+NAOS+AOP.png" alt="">
+    
+                <div class="card-body">
+                    <div class="card-title">Nike Standard Issue</div>
+                    <div class="card-text">Men's Therma-FIT Pullover Basketball Hoodie</div>
+                    <div class="card-text">$110</div>
+                    <a href="#" class="btn btn-primary">Visit</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+<br>
+    <div class="container-fluid w-100 bg-secondary-subtle mt-lg-5 border border-top-5 border-dark">
+        <div class="row d-flex justify-content-around">
+            <div class="col-lg-4 col-md-6 col-sm-12  py-lg-5 ">
+                <div class="in">
+                    <h4>About Us</h4>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investors</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 py-lg-5">
+                <div class="in">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-facebook fa-lg"></i>
+                                <a href="#">Nike Cambodia</a>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope fa-lg"></i>
+                                <a href="#">mail.info.com</a>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-x-twitter fa-lg"></i>
+                                <a href="#">https://twitter.com/Nike</a>
+                            </a>
+                        </li>
+    
+                        <li>
+                            <a href="#">
+                                <i class="fa-brands fa-square-linkedin fa-lg"></i>
+                                <a href="#">https://about.nike.com/en/company</a>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 py-lg-5">
+                <div class="in">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="#">Get Help</a></li>
+                        <li><a href="#">Find Store</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">shipping and Delivery</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Guides</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-12 py-lg-5">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
